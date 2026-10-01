@@ -93,8 +93,8 @@ main {
 
 .selector__select {
     width: 100%;
-    padding: var(--espacio-sm) var(--espacio-sm);
-    font-family: var(--fuente-serif);
+    padding: var(--espacio-sm);
+    font-family: var(--fuente-interfaz);
     font-size: var(--tamano-base);
     color: var(--color-texto);
     background-color: var(--color-fondo-secundario);
@@ -149,7 +149,7 @@ main {
 .soneto__autor {
     font-family: var(--fuente-serif);
     font-size: var(--tamano-subtitulo);
-    font-weight: 500;
+    font-weight: 400;
     color: var(--color-secundario);
 }
 
