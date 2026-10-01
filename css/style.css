@@ -165,7 +165,7 @@ main {
 .soneto__estrofa {
     display: flex;
     flex-direction: column;
-    gap: var(--espacio-xs); /* Principio de proximidad: versos contiguos más juntos */
+    gap: 0; /* Versos de la misma estrofa más juntos */
     width: 100%;
 }
 
