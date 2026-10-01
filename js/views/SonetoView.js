@@ -10,7 +10,7 @@ class SonetoView {
 
     renderizarSelector(sonetos, idSeleccionado) {
         this.select.innerHTML = sonetos
-            .map(s => `<option value="${s.id}" ${s.id === idSeleccionado ? 'selected' : ''}>${s.titulo} - ${s.autor}</option>`)
+            .map(s => `<option value="${s.id}" ${s.id === idSeleccionado ? 'selected' : ''}>${s.autor} - ${s.titulo}</option>`)
             .join('');
     }
 
