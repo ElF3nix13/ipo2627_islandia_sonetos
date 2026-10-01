@@ -167,7 +167,6 @@ main {
     flex-direction: column;
     gap: var(--espacio-xs); /* Principio de proximidad: versos contiguos más juntos */
     width: 100%;
-    max-width: 44ch;        /* Limitación de caracteres por línea recomendada (~50-60ch) */
 }
 
 /* Verso individual (nodo hoja del DOM) */
