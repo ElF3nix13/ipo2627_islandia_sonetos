@@ -18,7 +18,7 @@
     --color-primario-borde: hsl(var(--tono), 40%, 80%);
 
     /* Color secundario / detalle cálido */
-    --color-secundario: hsl(35, 75%, 42%);
+    --color-secundario: hsl(35, 75%, 35%);
     --color-secundario-borde: hsl(35, 50%, 80%);
 
     /* Tipografía y contrastes legibles */

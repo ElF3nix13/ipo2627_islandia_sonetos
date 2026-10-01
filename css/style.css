@@ -41,7 +41,6 @@ body {
     font-size: var(--tamano-cabecera);
     font-weight: 700;
     color: var(--color-primario);
-    letter-spacing: 0.05em;
     position: relative;
     display: inline-block;
     padding-bottom: var(--espacio-xs);
@@ -51,8 +50,8 @@ body {
     content: "";
     position: absolute;
     bottom: 0;
-    left: 25%;
-    width: 50%;
+    left: 15%;
+    width: 75%;
     height: 3px;
     background-color: var(--color-secundario);
     border-radius: 2px;
@@ -121,11 +120,11 @@ main {
     border: 1px solid var(--color-borde);
     border-top: 4px solid var(--color-primario);
     border-radius: var(--radio-borde);
-    padding: var(--espacio-xl) var(--espacio-lg);
+    padding: var(--espacio-lg) var(--espacio-lg);
     box-shadow: var(--sombra-tarjeta);
     display: flex;
     flex-direction: column;
-    gap: var(--espacio-lg);
+    gap: var(--espacio-md);
 }
 
 /* Encabezado del soneto (Título y Autor) */
@@ -147,10 +146,9 @@ main {
 }
 
 .soneto__autor {
-    font-family: var(--fuente-interfaz);
+    font-family: var(--fuente-lectura);
     font-size: var(--tamano-subtitulo);
     font-weight: 500;
-    font-style: italic;
     color: var(--color-secundario);
 }
 
@@ -177,5 +175,5 @@ main {
     font-size: var(--tamano-verso);
     line-height: var(--interlineado-lectura);
     color: var(--color-texto);
-    text-align: left;
+    text-align: center;
 }
