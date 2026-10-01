@@ -107,7 +107,7 @@ main {
 
 .selector__select:focus {
     border-color: var(--color-primario);
-    box-shadow: 0 0 0 3px hsla(var(--tono), 65%, 35%, 0.18);
+    box-shadow: 0 0 0 3px var(--color-foco);
 }
 
 /* ==========================================================================
