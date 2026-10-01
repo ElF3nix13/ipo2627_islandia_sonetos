@@ -1,8 +1,4 @@
-/* ==========================================================================
-   RESET Y CONFIGURACIÓN BASE
-   - Modelo de cajas universal
-   - Prevención de desbordamientos y márgenes colapsados no deseados
-   ========================================================================== */
+/* Restablecer estilos por defecto */
 *,
 *::before,
 *::after {
@@ -26,9 +22,7 @@ body {
     padding: var(--espacio-lg) var(--espacio-md);
 }
 
-/* ==========================================================================
-   CABECERA
-   ========================================================================== */
+/* Cabecera */
 .cabecera {
     width: 100%;
     max-width: 680px;
@@ -57,11 +51,7 @@ body {
     border-radius: 2px;
 }
 
-/* ==========================================================================
-   CONTENEDOR PRINCIPAL (MAIN)
-   - Uso de Flexbox vertical en nodos intermedios
-   - Separación clara mediante gap (modelo Gestalt de agrupamiento)
-   ========================================================================== */
+/* Main */
 main {
     width: 100%;
     max-width: 680px;
@@ -70,9 +60,7 @@ main {
     gap: var(--espacio-lg);
 }
 
-/* ==========================================================================
-   SECTOR DE SELECCIÓN (CONTROLES)
-   ========================================================================== */
+/* Selector */
 .selector {
     background-color: var(--color-fondo-tarjeta);
     border: 1px solid var(--color-borde);
@@ -110,12 +98,7 @@ main {
     box-shadow: 0 0 0 3px var(--color-foco);
 }
 
-/* ==========================================================================
-   TARJETA DEL SONETO (ÁREA DE LECTURA)
-   - Fondo y contraste cuidado para lectura prolongada
-   - Tipografía serif, ancho de línea contenido (~60 caracteres)
-   - Separación Gestalt por proximidad entre versos y estrofas
-   ========================================================================== */
+/* Soneto */
 .soneto {
     background-color: var(--color-fondo-tarjeta);
     border: 1px solid var(--color-borde);
@@ -128,7 +111,6 @@ main {
     gap: var(--espacio-md);
 }
 
-/* Encabezado del soneto (Título y Autor) */
 .soneto__header {
     display: flex;
     flex-direction: column;
@@ -161,7 +143,6 @@ main {
     gap: var(--espacio-md);
 }
 
-/* Estrofas: cuartetos y tercetos */
 .soneto__estrofa {
     display: flex;
     flex-direction: column;
@@ -169,7 +150,6 @@ main {
     width: 100%;
 }
 
-/* Verso individual (nodo hoja del DOM) */
 .soneto__verso {
     font-family: var(--fuente-serif);
     font-size: var(--tamano-verso);
