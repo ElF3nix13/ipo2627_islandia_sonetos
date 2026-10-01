@@ -1,38 +1,19 @@
 :root {
-    /* -----------------------------------------
-       1. DISEÑO CROMÁTICO (Modelo HSL)
-       - Esquema complementario / triádico armónico
-       - Parametrizado mediante var() y calc()
-       ----------------------------------------- */
-    --tono: 215; /* Tono primario: Azul sobrio y clásico */
-    --tono-secundario: calc(var(--tono) + 180); /* Complementario (395 -> 35º: Cálido/Dorado papel antiguo) */
+    /* DISEÑO CROMÁTICO */
+    --tono: 215;
+    --tono-secundario: calc(var(--tono) + 180);
 
-    /* Fondo principal y de tarjetas */
     --color-fondo: hsl(38, 25%, 96%);
     --color-fondo-secundario: hsl(38, 30%, 99%);
     --color-fondo-tarjeta: hsl(0, 0%, 100%);
-
-    /* Color primario (acento azul) */
-    --color-primario: hsl(var(--tono), 65%, 35%);
-    --color-primario-hover: hsl(var(--tono), 65%, 25%);
-    --color-primario-borde: hsl(var(--tono), 40%, 80%);
-
-    /* Color secundario / detalle cálido */
-    --color-secundario: hsl(35, 75%, 35%);
-    --color-secundario-borde: hsl(35, 50%, 80%);
-
-    /* Tipografía y contrastes legibles */
-    --color-texto: hsl(220, 20%, 18%);
-    --color-texto-suave: hsl(220, 10%, 42%);
     --color-borde: hsl(35, 20%, 86%);
 
-    /* -----------------------------------------
-       2. TIPOGRAFÍA
-       - Pareja de fuentes contrastadas:
-         * Serif clásica y legible para lectura de versos y títulos
-         * Sans-serif limpia y geométrica para interfaz y selector
-       - Jerarquía y escala en rem / em
-       ----------------------------------------- */
+    --color-primario: hsl(var(--tono), 65%, 35%);
+    --color-secundario: hsl(var(--tono-secundario), 75%, 35%);
+
+    --color-texto: hsl(220, 20%, 18%);
+
+    /* TIPOGRAFÍA */
     --fuente-interfaz: system-ui, sans-serif;
     --fuente-serif: "Georgia", serif;
 
@@ -46,11 +27,7 @@
     --interlineado-lectura: 1.75;
     --interlineado-compacto: 1.25;
 
-    /* -----------------------------------------
-       3. ESPACIO Y GESTALT (Flexbox / Grid / Gap)
-       - Espaciado modular consistente
-       - Agrupación por proximidad y contenedor
-       ----------------------------------------- */
+    /* ESPACIO */
     --espacio-xs: 0.5rem;
     --espacio-sm: 0.85rem;
     --espacio-md: 1.5rem;
