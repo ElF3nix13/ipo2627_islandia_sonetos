@@ -37,7 +37,7 @@ body {
 }
 
 .cabecera h1 {
-    font-family: var(--fuente-lectura);
+    font-family: var(--fuente-serif);
     font-size: var(--tamano-cabecera);
     font-weight: 700;
     color: var(--color-primario);
@@ -85,15 +85,16 @@ main {
     display: flex;
     flex-direction: column;
     gap: var(--espacio-xs);
-    font-size: 0.95rem;
+    font-family: var(--fuente-serif);
+    font-size: var(--tamano-label);
     font-weight: 600;
     color: var(--color-primario);
 }
 
 .selector__select {
     width: 100%;
-    padding: var(--espacio-sm) var(--espacio-md);
-    font-family: var(--fuente-interfaz);
+    padding: var(--espacio-sm) var(--espacio-sm);
+    font-family: var(--fuente-serif);
     font-size: var(--tamano-base);
     color: var(--color-texto);
     background-color: var(--color-fondo-secundario);
@@ -138,7 +139,7 @@ main {
 }
 
 .soneto__titulo {
-    font-family: var(--fuente-lectura);
+    font-family: var(--fuente-serif);
     font-size: var(--tamano-titulo);
     font-weight: 700;
     color: var(--color-primario);
@@ -146,7 +147,7 @@ main {
 }
 
 .soneto__autor {
-    font-family: var(--fuente-lectura);
+    font-family: var(--fuente-serif);
     font-size: var(--tamano-subtitulo);
     font-weight: 500;
     color: var(--color-secundario);
@@ -171,7 +172,7 @@ main {
 
 /* Verso individual (nodo hoja del DOM) */
 .soneto__verso {
-    font-family: var(--fuente-lectura);
+    font-family: var(--fuente-serif);
     font-size: var(--tamano-verso);
     line-height: var(--interlineado-lectura);
     color: var(--color-texto);

@@ -34,9 +34,10 @@
        - Jerarquía y escala en rem / em
        ----------------------------------------- */
     --fuente-interfaz: system-ui, sans-serif;
-    --fuente-lectura: "Georgia", serif;
+    --fuente-serif: "Georgia", serif;
 
     --tamano-base: 1rem;            /* 16px */
+    --tamano-label: 1.25rem;
     --tamano-subtitulo: 1.15rem;
     --tamano-titulo: 1.85rem;
     --tamano-cabecera: 2.4rem;
