@@ -14,7 +14,7 @@
     --color-texto: hsl(220, 20%, 18%);
 
     /* TIPOGRAFÍA */
-    --fuente-interfaz: system-ui, sans-serif;
+    --fuente-interfaz: "Segoe UI", sans-serif;
     --fuente-serif: "Georgia", serif;
 
     --tamano-base: 1rem;            /* 16px */
